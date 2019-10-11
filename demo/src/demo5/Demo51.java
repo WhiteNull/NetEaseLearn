@@ -1,6 +1,6 @@
 package demo5;
 
-public class Demo5 {
+public class Demo51 {
 
     public static Object baozidian = null;
 
@@ -68,10 +68,10 @@ public class Demo5 {
 
     public static void main(String[] args) throws Exception {
         //正常调用
-//        new Demo5().suspendResumeTest1();
+//        new Demo51().suspendResumeTest1();
         //锁被挂起
-//        new Demo5().suspendResumeTest2();
+//        new Demo51().suspendResumeTest2();
         //supspend比resume后执行
-        new Demo5().suspendResumeTest3();
+        new Demo51().suspendResumeTest3();
     }
 }

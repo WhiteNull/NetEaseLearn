@@ -1,1 +1,3 @@
-被弃用的suspend 和 resume
+被弃用的suspend resume
+推荐的  wait    notify
+推荐的  park    unpark
